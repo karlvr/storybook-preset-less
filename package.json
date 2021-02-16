@@ -1,0 +1,31 @@
+{
+  "name": "storybook-preset-less",
+  "version": "1.0.0",
+  "description": "A preset for Storybook to add less support",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karl von Randow",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@storybook/react": "^6.1.18",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "react": "^17.0.1",
+    "react-doc": "^1.2.6",
+    "style-loader": "^2.0.0"
+  },
+  "peerDependencies": {
+    "css-loader": "*",
+    "less-loader": "*",
+    "style-loader": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
