@@ -9,6 +9,11 @@
   },
   "author": "Karl von Randow",
   "license": "MIT",
+  "homepage": "https://github.com/karlvr/storybook-preset-less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karlvr/storybook-preset-less.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@storybook/react": "^6.1.18",
