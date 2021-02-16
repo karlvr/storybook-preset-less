@@ -32,7 +32,7 @@ module.exports = {
            modules: true,
            localIdentName: '[name]__[local]--[hash:base64:5]',
         },
-		lessLoaderOptions: {
+        lessLoaderOptions: {
           lessOptions: {
             strictMath: false,
             noIeCompat: true,
