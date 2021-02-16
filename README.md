@@ -1,5 +1,12 @@
 # Less preset for Storybook
 
+<!-- BADGES/ -->
+
+<span class="badge-npmversion"><a href="https://npmjs.org/package/storybook-preset-less" title="View this project on NPM"><img src="https://img.shields.io/npm/v/storybook-preset-less.svg" alt="NPM version" /></a></span>
+
+<!-- /BADGES -->
+
+
 One-line [Less](http://lesscss.org) configuration for [Storybook](https://storybook.js.org).
 
 Based on [`@storybook/preset-scss`](https://github.com/storybookjs/presets/tree/master/packages/preset-scss).

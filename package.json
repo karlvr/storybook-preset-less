@@ -5,6 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "projectz": "npx projectz compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Karl von Randow",
@@ -32,5 +33,31 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "keywords": [
+    "storybook",
+    "preset",
+    "less",
+    "less-loader"
+  ],
+  "maintainers": [
+    "Karl von Randow"
+  ],
+  "contributors": [
+    "Karl von Randow"
+  ],
+  "bugs": {
+    "url": "https://github.com/karlvr/storybook-preset-less/issues"
+  },
+  "badges": {
+    "list": [
+      "npmversion"
+    ],
+    "config": {
+      "npmPackageName": "storybook-preset-less",
+      "githubUsername": "karlvr",
+      "githubRepository": "storybook-preset-less",
+      "githubSlug": "karlvr/storybook-preset-less"
+    }
   }
 }
