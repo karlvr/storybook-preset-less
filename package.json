@@ -1,6 +1,6 @@
 {
   "name": "storybook-preset-less",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A preset for Storybook to add less support",
   "main": "index.js",
   "types": "index.d.ts",
