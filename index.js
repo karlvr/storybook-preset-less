@@ -1,5 +1,5 @@
 function wrapLoader(loader, options) {
-	if (options === false) {
+	if (!loader || options === false) {
 		return [];
 	}
 
@@ -16,9 +16,17 @@ function webpack(webpackConfig = {}, options = {}) {
 	const {
 		styleLoaderOptions,
 		cssLoaderOptions,
+		postcssLoaderOptions,
 		lessLoaderOptions,
 		rule = {},
 	} = options;
+
+	let postcssLoader;
+	try {
+		postcssLoader = require.resolve('postcss-loader');
+	} catch (error) {
+		/* Ignore */
+	}
 
 	return {
 		...webpackConfig,
@@ -32,6 +40,7 @@ function webpack(webpackConfig = {}, options = {}) {
 					use: [
 						...wrapLoader(require.resolve('style-loader'), styleLoaderOptions),
 						...wrapLoader(require.resolve('css-loader'), cssLoaderOptions),
+						...wrapLoader(postcssLoader, postcssLoaderOptions),
 						...wrapLoader(require.resolve('less-loader'), lessLoaderOptions),
 					],
 				},
