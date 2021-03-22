@@ -22,10 +22,8 @@ function webpack(webpackConfig = {}, options = {}) {
 	} = options;
 
 	let postcssLoader;
-	try {
+	if (typeof postcssLoaderOptions === "object") {
 		postcssLoader = require.resolve('postcss-loader');
-	} catch (error) {
-		/* Ignore */
 	}
 
 	return {
