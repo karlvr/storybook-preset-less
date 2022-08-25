@@ -33,7 +33,9 @@
     "style-loader": "*"
   },
   "optionalDependencies": {
-    "postcss-loader": "*"
+    "postcss-loader": "*",
+    "postcss": "*",
+    "webpack": "*"
   },
   "publishConfig": {
     "access": "public"
