@@ -33,7 +33,7 @@ You can pass configurations by using Object addon declaration for `storybook-pre
 module.exports = {
   addons: [
     {
-      name: 'storybook-preset-les',
+      name: 'storybook-preset-less',
       options: {
         cssLoaderOptions: {
            modules: true,
